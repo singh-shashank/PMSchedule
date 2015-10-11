@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fbc46308-61e9-4c1e-a945-a5d841617c2d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/PMDbService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PmDbServiceImpl.wsdl" MetadataType="Wsdl" ID="b6d1e771-8315-4df9-8dea-0cd853a025a9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/PMDbService?wsdl" />
+    <MetadataFile FileName="PMDbService.xsd" MetadataType="Schema" ID="cae91906-de22-4c47-af16-f943d16281fe" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/PMDbService?xsd=xsd1" />
+    <MetadataFile FileName="PMDbService.disco" MetadataType="Disco" ID="bedabd77-cec7-4b9a-828f-e75b5b52cb9a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/PMDbService?disco" />
+    <MetadataFile FileName="PMDbService2.xsd" MetadataType="Schema" ID="6598c87d-5414-43eb-9818-c66082428bfa" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/PMDbService?xsd=xsd0" />
+    <MetadataFile FileName="PMDbService1.xsd" MetadataType="Schema" ID="f6acf6f5-4b40-4e9a-97fe-d2e9f551e971" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/PMDbService?xsd=xsd2" />
+    <MetadataFile FileName="PMDbService3.xsd" MetadataType="Schema" ID="3ab456ad-a158-484f-8882-515e60a53977" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/PMDbService?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

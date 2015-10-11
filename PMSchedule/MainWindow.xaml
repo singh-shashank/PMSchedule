@@ -1,0 +1,9 @@
+﻿<Window x:Class="PMSchedule.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="ButtonAdminLogin" Content="Admin Login" HorizontalAlignment="Left" Margin="423,32,0,0" VerticalAlignment="Top" ToolTip="Login for administrative privileges." HorizontalContentAlignment="Center" Height="35" Click="ButtonAdminLogin_Click"/>
+
+    </Grid>
+</Window>

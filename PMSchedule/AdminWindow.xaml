@@ -1,0 +1,36 @@
+﻿<Window x:Class="PMSchedule.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AdminWindow" Height="268.599" Width="652.657">
+    <Grid>
+        <TabControl Margin="0,0,0.333,-0.333">
+            <TabItem x:Name="AdminWindowTab" Header="Add Machine">
+                <!--<Grid Background="#FFE5E5E5"/>-->
+                <Label Content="Machine content here"/>
+            </TabItem>
+            <TabItem Header="Add User">
+                <Grid>
+                    <!--<Grid Background="#FFE5E5E5"/>-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="LabelUserName" Content="Username" Grid.Row="0" Grid.Column="0"></Label>
+                    <TextBox x:Name="TBUsername" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1"/>
+
+                    <Label x:Name="LabelPassword" Content="Password" Grid.Row="1" Grid.Column="0"></Label>
+                    <PasswordBox x:Name="TBPassword" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" ToolTip="Enter a password"/>
+
+                    <Label x:Name="LabelUserType" Content="User Type" Grid.Row="2" Grid.Column="0"/>
+                    <ComboBox x:Name="CBUserType" Grid.Row="2" Grid.Column="1" Loaded="CBUserType_Loaded"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
